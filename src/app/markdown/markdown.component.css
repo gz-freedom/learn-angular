@@ -1,0 +1,20 @@
+.variable-binding,
+.variable-textarea {
+  width: 49%;
+}
+
+.variable-textarea {
+  box-shadow: 0 1px 2px rgba(0,0,0,.07);
+  min-height: 420px;
+  padding: 8px;
+  transition: all 300ms ease-out;
+}
+
+.variable-textarea:hover {
+  box-shadow: 0 3px 5px 1px rgba(0,0,0,.09);
+}
+
+.variable-binding {
+  display: block;
+  float: right;
+}
